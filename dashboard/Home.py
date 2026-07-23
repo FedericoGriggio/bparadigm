@@ -13,7 +13,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from brandparadigm.config.settings import get_settings  # noqa: E402
+from bparadigm.config.settings import get_settings  # noqa: E402
 from dashboard.components.charts import sentiment_donut, sentiment_trend, topic_breakdown  # noqa: E402
 from dashboard.components.data import load_dashboard_data, load_recent_voice  # noqa: E402
 from dashboard.components.api_client import (  # noqa: E402

@@ -6,3 +6,4 @@ uvicorn
 httpx
 .
 pydantic
+pydantic-settings

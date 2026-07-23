@@ -8,8 +8,5 @@ requirements = [r.strip() for r in requirements if r.strip() and not r.startswit
 setup(
     name="bparadigm",
     version="0.1.0",
-    description="AI-powered competitor intelligence through transformer-based NLP.",
-    packages=find_packages(include=["bparadigm", "baradigm.*"]),
-    install_requires=requirements,
-    python_requires=">=3.10",
+    packages=find_packages(include=["bparadigm", "bparadigm.*"]),
 )

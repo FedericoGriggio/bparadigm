@@ -3,7 +3,7 @@ from typing import Any
 import pandas as pd
 import httpx
 
-from brandparadigm.config.settings import get_settings
+from bparadigm.config.settings import get_settings
 
 API_BASE_URL = get_settings().dashboard_api_base_url.rstrip("/")
 

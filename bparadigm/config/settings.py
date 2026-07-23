@@ -10,7 +10,7 @@ from functools import lru_cache
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from brandparadigm.config.paths import MODELS_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR
+from bparadigm.config.paths import MODELS_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR
 
 
 class Settings(BaseSettings):
